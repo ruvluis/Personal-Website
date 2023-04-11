@@ -14,6 +14,8 @@ header {
 
 .links {
   float: right;
+  text-decoration: none;
+  color: inherit;
 }
 
 .links a {
@@ -22,65 +24,30 @@ header {
 
 }
 
-
-  footer {
-    box-sizing: border-box;
-    position: fixed;
-    height: 64px;
-    padding: 16px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    text-align: center;
-    box-shadow: 0 -2px 4px -2px black;
-  }
-  footer .media-link {
-    height: 32px;
-  }
-  
-  footer a {
-    margin-right: 64px;
-    text-decoration: none;
-  }
-  
-  footer a:last-child {
-    margin-right: 0;
-  }
-  
-  header, footer {
-    background: #f8f8f8;
-  }
-
-
-h1, h2, section {
-  font-family: 'Raleway', sans-serif;
-}
-
-
-
-
 footer {
   box-sizing: border-box;
-  height: 75px;
+  position: fixed;
+  height: 64px;
   padding: 16px;
+  bottom: 0;
+  left: 0;
+  right: 0;
   text-align: center;
   box-shadow: 0 -2px 4px -2px black;
 }
 footer .media-link {
-  height: 20px;
-  text-align: center;
-
+  height: 32px;
 }
 
 footer a {
   margin-right: 64px;
   text-decoration: none;
-}
-
-footer a:last-child {
   margin-right: 0;
 }
+
 
 header, footer {
   background: #f8f8f8;
 }
+
+
