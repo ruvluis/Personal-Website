@@ -1,0 +1,90 @@
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+  }
+.header {
+background-color: #292c31;
+color: #fff;
+padding: 20px;
+}
+
+.header div {
+text-decoration: #fff;
+  }
+
+h1 {
+font-weight: bold;
+margin: 0;
+font-size: 40px;
+}
+.contact-info {
+box-sizing: border-box;
+background-color: #fff;
+padding: 20px;
+width: 500px;
+margin: 0 auto;
+box-shadow: 0 0 10px rgba(0,0,0,0.2);
+border-radius: 5px;
+margin-top: 50px;
+}
+h2 {
+font-weight: bold;
+margin-bottom: 10px;
+font-size: 24px;
+color: #292c31;
+}
+ul {
+list-style: none;
+padding: 0;
+margin: 0;
+}
+li {
+margin-bottom: 5px;
+color: #292c31;
+}
+a {
+color: #292c31;
+text-decoration: none;
+border-bottom: 2px solid #292c31;
+transition: all 0.2s ease-in-out;
+}
+a:hover {
+border-color: #f5a623;
+}
+
+.contact-info {
+  width: 400px; /* or any width that fits your needs */
+  margin-top: 30px; /* adjust as needed */
+  padding: 15px;
+  background-color: #f7f7f7;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+}
+
+.contact-info h2 {
+  font-size: 24px;
+  color: #292c31;
+}
+
+.contact-info ul {
+  padding-left: 0;
+  margin-bottom: 10px;
+}
+
+.contact-info li {
+  margin-bottom: 5px;
+  color: #292c31;
+}
+
+.contact-info a {
+  color: #292c31;
+  text-decoration: none;
+  border-bottom: 2px solid #292c31;
+  transition: all 0.2s ease-in-out;
+}
+
+.contact-info a:hover {
+  border-color: #f5a623;
+}

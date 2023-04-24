@@ -1,3 +1,58 @@
+body {
+  font-family: "Segoe UI", sans-serif;
+  background-color: #f7f7f7;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-weight: bold;
+  margin: 0;
+  font-size: 40px;
+}
+
+.contact-info {
+  box-sizing: border-box;
+  background-color: #fff;
+  padding: 20px;
+  width: 500px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  margin-top: 50px;
+}
+
+h2 {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 24px;
+  color: #292c31;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 5px;
+  color: #292c31;
+}
+
+a {
+  color: #292c31;
+  text-decoration: none;
+  border-bottom: 2px solid #292c31;
+  transition: all 0.2s ease-in-out;
+}
+
+a:hover {
+  border-color: #f5a623;
+}
+
+/* New CSS for the header and footer */
+
 header {
   font-size: 2rem;
   position: fixed;
@@ -5,8 +60,9 @@ header {
   right: 0;
   padding: .5em 1em;
   box-shadow: 0 2px 4px -2px black;
+  background-color: #292c31;
+  color: #fff;
 }
-
 
 .name {
   float: left;
@@ -21,33 +77,49 @@ header {
 .links a {
   text-decoration: none;
   color: inherit;
-
 }
 
-footer {
-  box-sizing: border-box;
-  position: fixed;
-  height: 64px;
-  padding: 16px;
-  bottom: 0;
-  left: 0;
-  right: 0;
+/* Portfolio Section */
+.portfolio {
+  background-color: #f5f5f5;
+  padding: 50px 0;
+}
+
+.portfolio h3 {
+  font-size: 36px;
+  font-weight: bold;
   text-align: center;
-  box-shadow: 0 -2px 4px -2px black;
-}
-footer .media-link {
-  height: 32px;
+  margin-bottom: 40px;
 }
 
-footer a {
-  margin-right: 64px;
-  text-decoration: none;
-  margin-right: 0;
+.portfolio ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-
-header, footer {
-  background: #f8f8f8;
+.portfolio li {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
 }
 
+.portfolio p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
 
+.Fullstack, .amazon, .construction {
+  margin-bottom: 60px;
+}
+
+.Fullstack h3, .amazon h3, .construction h3 {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.Fullstack p, .amazon p, .construction p {
+  margin-bottom: 20px;
+}
